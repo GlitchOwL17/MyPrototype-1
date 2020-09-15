@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyPrototype</string>
+    <string name="HP1">Help stop the spread of Corona Virus</string>
+    <string name="HP2">Avoid close contact with people who are sick</string>
+    <string name="HP3">Avoid touching your eyes,nose and mouth</string>
+    <string name="HP4">Wash your hands often with soap and water at least for 20 seconds</string>
+    <string name="HP5">Stay home and get rest when you are sick</string>
+    <string name="HP6">Cover Your cough or sneeze with a tissue and throw it in trash</string>
+    <string name="HP7">Clean and disinfect frequently used objects and surfaces</string>
+    <string name="rulesTitle">Rules for 14 days of Isolation</string>
+    <string name="rules1">Wash Hands with soap and water</string>
+    <string name="rules2">Stay in a separate,well ventilated room</string>
+    <string name="rules3">Dont leave home</string>
+    <string name="rules4">Use a tissue for each sneeze</string>
+    <string name="rules5">When possible use a separate bathroom</string>
+    <string name="rules6">Wear a mask,protect those around you</string>
+    <string name="rules7">Air out the entire house</string>
+    <string name="rules8">Dont have visitors in the house</string>
+    <string name="rules9">When feeling unwell,call 101 hotline</string>
+    <string name="rules10">Clean surfaces each day</string>
+</resources>

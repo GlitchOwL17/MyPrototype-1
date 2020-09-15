@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpPage">
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="First Name"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/inputFirstName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/firstName"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputFirstName"
+        android:layout_marginTop="10dp"
+        android:text="Last Name"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/inputLastName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lastName"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/mobileNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputLastName"
+        android:layout_marginTop="10dp"
+        android:text="Mobile"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/inputMobileNum"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mobileNum"/>
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputMobileNum"
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/emailText"
+        android:inputType="textEmailAddress"/>
+
+
+</RelativeLayout>
