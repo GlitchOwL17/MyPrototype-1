@@ -1,3 +1,5 @@
+package com.example.myprototype;
+
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -19,6 +21,7 @@ public class Databasehelper extends SQLiteOpenHelper {
 
     public Databasehelper(@Nullable Context context) {
         super(context, Database_name, null, 1);
+        SQLiteDatabase db = this.getWritableDatabase();
     }
 
     @Override
@@ -29,5 +32,6 @@ public class Databasehelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
     db.execSQL("DROP TABLE IF EXISTS " + Table_Name);
+    onCreate(db);
     }
 }

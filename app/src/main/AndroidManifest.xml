@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".rules14days"></activity>
+        <activity android:name=".DbView"></activity>
+        <activity android:name=".rules14days" />
         <activity android:name=".HygienePractices" />
         <activity android:name=".Location" />
         <activity android:name=".Splash">
